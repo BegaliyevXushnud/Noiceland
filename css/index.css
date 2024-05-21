@@ -1,0 +1,525 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family: "Libre Franklin";
+    src: url(../Fontlar/Ibarra_Real_Nova\,Libre_Franklin\,Nunito_Sans/Libre_Franklin);
+}
+
+@font-face {
+    font-family: "Tenor Sans";
+    src: url(../Fontlar/Ibarra_Real_Nova\,Libre_Franklin\,Nunito_Sans/Tenor);
+}
+
+@font-face {
+    font-family: "Source Serif Pro";
+    src: url(../Fontlar/Ibarra_Real_Nova\,Libre_Franklin\,Nunito_Sans\,Source_Serif_4\,Tenor_Sans/Source_Serif_4);
+}
+
+body {
+    background-color: #d0cece;
+}
+
+.container {
+    width: 1440px;
+    height: 5000px;
+    background-color: rgb(255, 253, 253);
+    margin: 0 auto;
+    margin-top: 0cm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+header {
+    width: 1440px;
+    height: 90px;
+    background-color: #fffbfb;
+    z-index: 1000;
+    position: fixed;
+}
+
+nav {
+    width: 1400px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 150px 0px 122px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+
+}
+
+header nav ul li {
+    font-family: Libre Franklin;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 15px;
+    transition: all 0.3s linear;
+}
+
+header nav ul li a:hover {
+    background-color: lightseagreen;
+    color: aliceblue;
+}
+
+.montain {
+    width: 1200px;
+    height: 472.5px;
+    display: flex;
+    margin-top: 3cm;
+}
+
+.montain>a .montainimg {
+    width: 721px;
+    height: 474px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+
+.montain img {
+    width: 721px;
+    height: 474px;
+    transition: all 0.3s linear;
+}
+
+.montain>a>.montainimg>img:hover {
+    transform: scale(1.2);
+}
+
+.japanhouse {
+    width: 480px;
+    height: 342px;
+    margin-left: -10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 0px 0px 80px;
+}
+
+
+.japanhouse>.Illustration {
+    font-family: Libre Franklin;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #999999;
+}
+
+.japanhouse>.japanhouseopens {
+    font-family: Tenor Sans;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.japanhouse>.enim {
+    font-family: Source Serif Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    white-space: pre;
+    color: #666666;
+}
+
+.japanhouse>.byreta {
+    font-family: Libre Franklin;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #000000;
+
+}
+
+.japanhouse>.byreta a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 15px;
+    margin-left: -14px;
+    transition: all 0.4s linear;
+}
+
+.japanhouse>.byreta a:hover {
+    background-color: cornflowerblue;
+    color: aliceblue;
+}
+
+.section-first {
+    width: 1220px;
+    height: 963px;
+    margin-top: 1.5cm;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+margin-top: 2cm;
+}
+
+.section-first>.pages {
+    width: 390px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-first>.pages>a>.pagesimg {
+    width: 390px;
+    height: 254px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+
+.section-first>.pages>a>.pagesimg img {
+    width: 390px;
+    height: 254px;
+    transition: all 0.3s linear;
+}
+
+.section-first>.pages>a>.pagesimg img:hover {
+    transform: scale(1.2);
+}
+
+.section-first>.pages>.photo {
+    font-family: Libre Franklin;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #999999;
+
+}
+
+.section-first >.pages>.helmut {
+    font-family: Tenor Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+    text-transform: uppercase;
+    white-space: pre;
+
+}
+
+.section-first>.pages>.byale {
+    font-family: Libre Franklin;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #000000;
+    margin-top: 0cm;
+    margin-left: -5px;
+
+}
+
+.section-first>.pages>.byale a {
+    text-decoration: none;
+    padding: 10px 10px;
+    transition: all 0.3s linear;
+    color: #000000;
+
+}
+
+.section-first>.pages>.byale a:hover {
+    background-color: lightseagreen;
+    color: aliceblue;
+}
+
+.section-second{
+    width: 1270px;
+    height: 800px;
+    margin-top: 4cm;
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.section-second > .pages-second{
+    width: 295px;
+    height: 380px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  
+}
+.pagesimg-second{
+    width: 100%;
+    height: 201px;
+position: relative;
+overflow: hidden;
+display: inline-block;
+
+}
+.img02{
+    width: 100%;
+    height: 197px;
+    transition: all 0.3s linear;
+}
+.img02:hover{
+transform: scale(1.3);
+}
+.pages-second > .Illustration{
+    font-family: Libre Franklin;
+font-size: 11px;
+font-weight: 400;
+line-height: 12px;
+letter-spacing: 1px;
+text-align: left;
+color: #999999;
+}
+.pages-second > .jho{
+    font-family: Tenor Sans;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+color: #000000;    
+white-space: pre;
+text-transform: uppercase;
+}
+.pages-second > .brt{
+    font-family: Libre Franklin;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-decoration: none;
+   color: #000000;
+    display: block;
+}
+.pages-second > .brt:hover{
+  color: lightseagreen;
+}
+.alonebutton{
+    width: 205px;
+height: 54px;
+gap: 0px;
+border-radius: 1px ;
+opacity: 0px;
+font-family: Libre Franklin;
+font-size: 12px;
+font-weight: 400;
+line-height: 12px;
+letter-spacing: 1px;
+text-align: center;
+text-transform: uppercase;
+margin-top: 2cm;
+transition: all 0.3s linear;
+}
+.alonebutton:hover{
+    background-color: lightseagreen; 
+    color: white;
+    border: none;
+}
+.section-three{
+width: 1250px;
+height: 1126px;
+margin-top: 2cm;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 10px;
+}
+ .pages-three{
+    width: 610px;
+    height: 567px;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-around;
+}
+.imgdiv{
+    width: 590px;
+    height: 387px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+.imgdiv > a > img{
+    width: 590px;
+    height: 387px;
+    transition: all 0.3s linear;
+}
+.imgdiv > a > img:hover{
+  transform: scale(1.2);
+}
+.pages-three > .gd{
+    font-family: Libre Franklin;
+font-size: 12px;
+font-weight: 400;
+line-height: 12px;
+letter-spacing: 1px;
+text-align: left;
+color: #999999;
+}
+.pages-three > .abh{
+    font-family: Tenor Sans;
+font-size: 21px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #000000;
+text-transform: uppercase;
+}
+.pages-three > .bco{
+    font-family: Libre Franklin;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-align: left;
+color: #000000; 
+text-decoration: none;   
+transition: all 0.5s linear;
+}
+.pages-three > .bco:hover{
+ color: lightseagreen;
+}
+footer{
+    width: 1440px;
+    height: 400px;
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  align-items: center;
+    margin-top: 2cm;
+}
+.head{
+    width: 1200px;
+    height: 60px;
+    display: flex;
+}
+.head img{
+    width: 134px;
+height: 17.01px;
+}
+.head h2{
+    font-family: Libre Franklin;
+font-size: 10px;
+font-weight: 400;
+line-height: 12px;
+letter-spacing: 1px;
+
+color: #666666;
+margin-left: 10px ;
+margin-top: 10px;
+}
+.categori{
+    width: 1200px;
+    height: 100px;
+    display: flex;
+}
+.categori > nav ul {
+   list-style: none;
+   text-decoration: none;
+}
+.categori > nav ul li a { 
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Libre Franklin;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+margin-left: -120px;
+ }
+ label{
+    font-family: Libre Franklin;
+font-size: 10px;
+font-weight: 400;
+line-height: 12px;
+letter-spacing: 1px;
+text-align: left;
+color: #666666;
+ }
+ input[type="text"] {
+    width: 221px;
+    height: 48px;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    border: none;
+}
+
+input[type="text"]::placeholder {
+    color: #999;
+    font-family: Libre Franklin;
+font-size: 10px;
+font-weight: 400;
+line-height: 12px;
+letter-spacing: 1px;
+text-align: left;
+text-transform: uppercase;
+}
+.categori  form button{
+    width: 79px;
+    height: 48px;
+    top: -0.41px;
+    left: 221px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Libre Franklin;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+        color: #FFFFFF;
+        background: none;
+        border: none;
+        text-transform: uppercase;
+        cursor: pointer;
+}
+.categori2{
+    width: 600px;
+    height: 160px;
+    display: flex;
+    margin-left: -16cm;
+}
+.categori2 > nav ul {
+   list-style: none;
+   text-decoration: none;
+}
+.categori2 > nav ul li a { 
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Libre Franklin;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+margin-left: -120px;
+ }
+ 
